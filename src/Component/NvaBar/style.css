@@ -1,0 +1,10 @@
+.test{
+    background-color: blue;
+}
+.rotatePlus45Deg {
+    transform: rotate(45deg) translate(2px, 6px);
+}
+
+.rotateMinus45Deg {
+    transform: rotate(-45deg) translate(2px, -6px);
+}

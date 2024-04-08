@@ -18,7 +18,7 @@ function TabMenu() {
             return (
               <li
                 key={link.id}
-                className="inline-block px-2 uppercase text-sm md:text-base cursor-pointer select-none"
+                className="inline-block px-2 uppercase text-xs md:text-sm cursor-pointer select-none"
                 id={link.id}
                 onClick={() => clickHaler(link)}
               >

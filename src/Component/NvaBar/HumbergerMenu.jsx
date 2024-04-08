@@ -47,7 +47,7 @@ function HumbergerMenu() {
         ></div>
       </div>
       <div
-        className="absolute w-[100vw] h-[100vh] top-0 -left-full -z-10 transition-all duration-500 opacity-85"
+        className="absolute w-full min-h-screen top-[45px] -left-full transition-all duration-500 flex justify-center items-center z-10 bg-zinc-700 opacity-90"
         id="OverMenu"
       >
         <OverMenu />

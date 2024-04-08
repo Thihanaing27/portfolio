@@ -8,6 +8,7 @@ function TabMenu() {
     const liTagLeft = liTag.offsetLeft;
     sliderTag.style.width = liTagWidth + "px";
     sliderTag.style.transform = `translateX(${liTagLeft}px)`;
+    console.log(liTagWidth);
   }
 
   return (
@@ -29,7 +30,7 @@ function TabMenu() {
         </ul>
       </div>
       <div
-        className="w-[62px] h-[2px] bg-green-500 rounded-xl transition-all duration-200"
+        className="w-[56px] h-[2px] bg-green-500 rounded-xl transition-all duration-200"
         id="slider"
       ></div>
     </div>

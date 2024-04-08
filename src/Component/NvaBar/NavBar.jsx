@@ -4,7 +4,7 @@ import TabMenu from "./TabManu";
 
 function NavBar() {
   return (
-    <div className="w-[100vw]  flex justify-between items-center bg-slate-800 md:px-5 md:py-4 px-3 py-2">
+    <div className="w-full  flex justify-between items-center bg-slate-800 md:px-5 md:py-4 px-3 py-2 sticky top-1">
       <div>
         <Logo />
       </div>

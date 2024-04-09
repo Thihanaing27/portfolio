@@ -1,7 +1,7 @@
 import thiha from "../../assets/thiha.png";
 function Image() {
   return (
-    <div className="w-full md:h-[300px] h-[250px] md:min-w-[300px] md:mt-10 mt-5">
+    <div className="w-full h-[300px]  md:min-w-[300px] mt-5">
       <div className="relative bg-zinc-900 w-10/12 h-full mx-auto p-1 ">
         <span className="[writing-mode:vertical-rl] rotate-180 h-full leading-none tracking-widest">
           THIHA NAING

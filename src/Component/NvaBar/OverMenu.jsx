@@ -5,13 +5,13 @@ function OverMenu() {
     console.log(link);
   }
   return (
-    <div className="w-full h-full">
+    <div className="min-w-full min-h-full bg-zinc-700 flex justify-center items-center opacity-90">
       <ul className="">
         {NavLink.map((link) => {
           return (
             <li
               key={link.id}
-              className="text-sm uppercase text-center my-4 cursor-default select-none"
+              className="text-sm uppercase text-center my-4 cursor-default select-none OverMenu"
               id={link.id}
               onClick={() => clickHandler(link)}
             >

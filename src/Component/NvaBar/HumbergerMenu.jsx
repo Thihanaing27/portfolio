@@ -1,4 +1,4 @@
-import OverMenu from "./OverMenu";
+// import OverMenu from "./OverMenu";
 import "./style.css";
 
 function HumbergerMenu() {
@@ -8,7 +8,7 @@ function HumbergerMenu() {
     const bar3 = document.getElementById("bar3");
     const MenuContainer = document.getElementById("MenuContainer");
     const OverMenu = document.getElementById("OverMenu");
-
+    console.log(OverMenu);
     if (MenuContainer.classList.contains("isOpen")) {
       bar2.classList.remove("opacity-0");
       bar1.classList.remove("rotatePlus45Deg");
@@ -46,12 +46,12 @@ function HumbergerMenu() {
           id="bar3"
         ></div>
       </div>
-      <div
-        className="absolute w-full min-h-screen top-[45px] -left-full transition-all duration-500 flex justify-center items-center z-10 bg-zinc-700 opacity-90"
-        id="OverMenu"
-      >
+
+      {/* <div 
+      className="absolute w-full h-screen  -left-0 bg-green-500"
+      id="OverMenu">
         <OverMenu />
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -8,7 +8,7 @@ function Image() {
         </span>
         <img
           src={thiha}
-          className="w-[95%] h-full object-cover absolute -bottom-2 -right-3 bg-slate-700 rounded-tr-lg rounded-bl-lg grayscale hover:grayscale-0 hover:-bottom-1 hover:-right-2 transition-all duration-300 cursor-pointer"
+          className="w-[95%] h-full object-cover absolute -bottom-2 -right-3 bg-slate-700 rounded-tr-xl rounded-bl-xl grayscale hover:grayscale-0 hover:-bottom-1 hover:-right-2 transition-all duration-300 cursor-pointer"
         />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 shadow-sky-800 shadow-[0_0_100px_100px] -z-10"></div>
       </div>
